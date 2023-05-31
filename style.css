@@ -40,15 +40,16 @@ body
     text-decoration: none;
     
 }
-#new_task
+#new_task > a
 {
     text-decoration: none;
     font-family: sans-serif;
-    margin-top: 32px;
+    margin-top: 26px;
     position: absolute;
-    right: 11%;
-    color: rgb(143, 143, 143);
-    font-size:large;
+    right: 212px;
+    color: rgb(0, 0, 255);
+    font-size:25px;
+    text-decoration: none;
 }
 .main_container
 {
@@ -95,7 +96,7 @@ body
     line-height: 30px;
     color: rgb(48,182, 239);
     font-weight:bold;
-    box-shadow: 3px 3px 5px gray;
+    box-shadow: 1px 1px 10px gray;
     text-align:left;
     padding: 30px 0px 20px 30px;
     text-decoration: none;
@@ -129,6 +130,10 @@ left:15% ;
     top:72%;
     left:38% ;   
 }
+#new_task3{
+    position: absolute;
+    top: 70px;
+}
 /*MEDIA QUERY:index1*/
 @media  only screen and (max-width:810px)
 {
@@ -142,12 +147,13 @@ left:15% ;
 {  
     text-align:left;
 } 
-#new_task
+#new_task > a
 {
     position: absolute;
-    top: 11%;   
-    right: 29%;
+    top: 14%;   
+    right: 24%;
     font-size: 16px;
+    font-size: 20px;
 }
 #plus
 {
@@ -161,7 +167,7 @@ left:15% ;
     margin-top: 30px;
     text-align: center;
     position: absolute;
-    left: 45%;
+    left: 30%;
     top:12%;
     padding-bottom: 10px;
 }
@@ -186,34 +192,34 @@ left:15% ;
 {
     position: absolute;
     top:25%;
-    left:22% ;
+    left:19% ;
 }
 #todo
 {
     position: absolute;
     top:65%;
-    left:22% ;
+    left:19% ;
 }
 #movies{
     position: absolute;
     top:105%;
-    left:22% ; 
+    left:19% ; 
 }
 #daily{
 position: absolute;
 top:145%;
-left:22% ;
+left:19% ;
 }
 #books{
     position: absolute;
     top:185%;
-    left:22% ;
+    left:19% ;
     }
 }
 /*page2--index2.html */
 
 #transparent2{
-    opacity: 0.3;
+    opacity: 0.2;
     background: rgba(100, 100, 100, 0.1);
 } 
 .p1, .p2, .p3 ,.p4, .p5{
@@ -288,12 +294,13 @@ padding-left: 10px;
 @media screen and (max-width:768px) {
 #addnewtask2
 {
-    width:200px;
-    height: 180px;
+    width:250px;
+    height: 200px;
     border:1px solid gray;
     position:absolute;
-    left:22.5%;
-    top:30%;    
+    left:16%;
+    top:30%;
+    box-shadow: 1px 1px 10px grey;    
 }
 #newtask
 {
@@ -311,13 +318,14 @@ padding-left: 10px;
 }
 #hr_form{
     position: relative;
-    top: 30px;
+    top: 70px;
 }
 #addtask1 
 {
-    width:190px;
+    width:230px;
     position: absolute;
-    top:30%;
+    top:27%;
+    left: 1%;
     box-sizing: border-box;
     color: rgb(167,167,167);
 }
@@ -326,7 +334,7 @@ padding-left: 10px;
     width: 100px;
     font-size: small;
     top: 65%;
-    left: 45%;
+    left: 31%;
 }
     
 }
@@ -400,7 +408,6 @@ padding-left: 10px;
     height: 200px;
     border: 1px solid grey;
     border-radius: 4px;
-    /* border-color:blue; */
     background-color: transparent;
     line-height: 30px;
     color: rgb(48,182, 239);
@@ -441,16 +448,16 @@ padding-left: 10px;
     margin:auto ;
     padding-top: 6px;
     position: absolute; 
-    top:100px; 
+    top:110px; 
     right: 45%;
     
 }
 #new_task3
 {
     position: absolute;
-    right:20%;
-    top: 12%;
-    font-size:14px;
+    right:40px;
+    top: 67px;
+    font-size:19px;
 }
 #backicon{
     
@@ -459,15 +466,15 @@ padding-left: 10px;
     border-radius: 50%;
     position: absolute;
     left:0px;
-    top:80px;
+    top:90px;
 }
 #back
 {
     position: absolute;
     left:48px;
-    top:84px;
+    top:89px;
     font-weight: bold;
-    font-size: small;
+    font-size: 20px;
 }
 #paris3
 {
@@ -492,7 +499,7 @@ padding-left: 10px;
     .b1 ,.b2, .b3 , .b4, .b5 {
         color: rgb(48,182, 239);
         font-size: 50px;
-        padding-left: 10px;
+        padding-left: 30px;
     }
     .fa-ul
     {
@@ -504,6 +511,32 @@ padding-left: 10px;
         color:rgb(247, 247, 247);
         color: grey;
     }
+    #plus
+{
+    width:65px;
+    height:60px;
+    border-radius: 50%;
+    background-color: rgb(0, 0, 252);
+    color: white;
+    font-size:55px;
+    margin-top: 20px;
+    padding-top: 7px;
+    text-align: center;
+    position: absolute;   
+    left: 27%;
+    text-decoration: none;    
+}
+#new_task > a
+{
+    text-decoration: none;
+    font-family: sans-serif;
+    margin-top: 15px;
+    position: absolute;
+    right: 220px;
+    color: rgb(0, 0, 255);
+    font-size:40px;
+    text-decoration: none;
+}
     .decoration
     {
         text-decoration: line-through;
@@ -529,9 +562,9 @@ padding-left: 10px;
         line-height: 30px;
         color: rgb(48,182, 239);
         font-weight:bold;
-        box-shadow: 1px 1px 5px gray;
+        box-shadow: 1px 1px 10px gray;
         text-align:left;
-        margin-left: -110px;
+        margin-left: -90px;
         padding: 10px 0px 20px 5px;
     }
     #circle{
@@ -539,75 +572,79 @@ padding-left: 10px;
         width: 300px;
     }
     #addnewtask2{
-        width:400px;
-        height: 250px;
+        width:500px;
+        height: 300px;
         background-color: #fff;
         border: 1px solid grey;    
         border-radius: 10px;
         position:absolute;
-        left:20%;
+        left:17%;
         top:40%;
     }
     #newtask{
-    color:black;
+    color:blue;
     text-decoration: none;
     text-align: center;
     font-weight: bolder;
     font-size: 35px;
-    padding-top: 1px;
+    padding-top: 15px;
     padding-left: 10px;
     }
-    /* .fa-sharp fa-solid fa-xmark{
-        color: blue;
-        width:40px;
-        height: 40px;
-        border-radius: 50%;
-    } */
     #addtask1 {
-        width:320px;
-        padding-left: 3px;
+        width:470px;
+        height: 50px;
         font-size: medium;
         background-color:rgb(247, 247, 247);
-        margin-top: 30px;
-        margin-left: 35px;
+        margin-top: 10px;
+        margin-left: 10px;
         color: rgb(167,167,167);
     }
     #addtask2{
         background-color: rgb(0, 165, 236);
-        width: 120px;
+        width: 150px;
+        height: 50px;
         position: absolute;
-        top:70%;
+        top:60%;
         color:rgb(255,255,255);
         font-family: sans-serif;
         border-radius: 4px ;
         font-size: larger;
         padding-left: 4px;
-        margin-left: 15%;
+        margin-left: 7%;
     }
     .close1{
         text-decoration: none;
         padding-left: 53%;
-        font-size: 20px;
+        font-size: 55px;
         font-weight: bolder;
     }
     #plus3
 {
-    width:40px;
-    height:40px;
+    width:50px;
+    height:50px;
     border-radius: 50%;
-    font-size:30px;
+    font-size:45px;
     margin:auto ;
-    padding-bottom: 1px;
+    padding-bottom: 10px;
     position: absolute; 
-    top:175px; 
-    right: 20%;    
+    top:165px; 
+    right: 35%;    
+}
+#new_task3
+{
+    position: absolute;
+    right:28px;
+    top: 128px;
+    font-size:35px;
+    color: blue;
 }
 #paris3
 {
     width: 650px;
-    height: 300px;
+    height: 350px;
     font-weight:bold;
     position: absolute;
+    box-shadow: 1px 1px 10px grey;
     top:25%;
     left:8% ;    
 }
@@ -618,19 +655,20 @@ padding-left: 10px;
 #back
 {
     position: absolute;
-    left:190px;
+    left:140px;
     top:150px;
     font-weight: bold;
-    font-size: 30px;
+    font-size: 40px;
 }
 #backicon{
     
     width: 70px;
     height:70px;
+    font-size: 45px;
     border-radius: 50%;
     position: absolute;
-    left:130px;
-    top:155px;
+    left:80px;
+    top:146px;
 }
 .decoration3
 {    
